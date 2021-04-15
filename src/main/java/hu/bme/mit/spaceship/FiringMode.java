@@ -2,7 +2,7 @@ package hu.bme.mit.spaceship;
 
 /**
 * Weapon firing mode enumeration
-* EDIT DIFF
+*feloldott konfliktus.
 */
 public enum FiringMode {
   SINGLE, ALL
