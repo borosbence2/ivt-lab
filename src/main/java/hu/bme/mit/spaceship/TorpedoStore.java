@@ -52,7 +52,7 @@ public class TorpedoStore {
 
       return success;
     }catch(Exception e){
-      return false;
+      return success;
     }
   }
 
