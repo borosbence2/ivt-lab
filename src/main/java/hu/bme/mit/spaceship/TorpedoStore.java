@@ -51,7 +51,7 @@ public class TorpedoStore {
       return success;
     }
     catch (NoSuchAlgorithmException e){
-      return false;
+      return success;
     }
   }
   public boolean isEmpty(){
