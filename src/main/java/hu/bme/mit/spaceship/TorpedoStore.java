@@ -48,11 +48,12 @@ public class TorpedoStore {
         // simulated failure
         success = false;
       }
-      return success;
+      
     }
     catch (NoSuchAlgorithmException e){
-      return success;
+      
     }
+    return success;
   }
   public boolean isEmpty(){
     return this.torpedoCount <= 0;
